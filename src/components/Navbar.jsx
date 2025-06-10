@@ -15,12 +15,7 @@ export default function Navbar() {
           <Link to="/contact" className="hover:underline">Contact</Link>
         </li>
         <li>
-          <Link
-            to="/login"
-            className="bg-black text-yellow-300 px-4 py-1 rounded hover:bg-yellow-500 hover:text-black transition"
-          >
-            Login
-          </Link>
+          <Link to="/login" className="hover:underline">Login</Link>
         </li>
       </ul>
     </nav>
